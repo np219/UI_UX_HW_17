@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    margin: 0px 250px;
+    margin: 0px 275px;
     background-image: linear-gradient(to right, white 30%,#ffb893 )
 }
 
@@ -11,17 +11,11 @@ body {
 .pad {
     padding: 20px;
 }
-.pad2{
-    padding:10px;
-}
 
 .flex {
     display:flex;
 }
 
-.align-center {
-    align-items: center;
-}
 
 .flex-column {
     flex-direction: column;
@@ -66,7 +60,7 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
 }
 .text {
-    width: 55%;
+    width: 50%;
     color: black;
     font-size: 16px;
 }
@@ -97,6 +91,11 @@ button {
     border: 2px solid #364E31;
 }
 
-.space-around {
-    justify-content: space-around;
+.picture {
+    width: 50%;
+    justify-content: flex-end;
+}
+
+.align-center{
+    align-items: center;
 }
